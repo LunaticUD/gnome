@@ -1,0 +1,468 @@
+[appindicator]
+icon-brightness=0.0
+icon-contrast=0.0
+icon-opacity=240
+icon-saturation=0.0
+icon-size=0
+tray-pos='right'
+
+[arcmenu]
+arc-menu-icon=15
+button-item-icon-size='Default'
+context-menu-items=[{'id': 'ArcMenu_Settings', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'ArcMenu_PanelExtensionSettings', 'name': 'Panel Extension Settings', 'icon': 'application-x-addon-symbolic'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_PowerOptions', 'name': 'Power Options', 'icon': 'system-shutdown-symbolic'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}, {'id': 'ArcMenu_ShowDesktop', 'name': 'Show Desktop', 'icon': 'computer-symbolic'}]
+custom-menu-button-icon-size=20.0
+dash-to-panel-standalone=true
+distro-icon=1
+force-menu-location='Off'
+hide-overview-on-arcmenu-open=true
+hide-overview-on-startup=true
+left-panel-width=365
+menu-background-color='rgba(48,48,49,0.98)'
+menu-border-color='rgb(60,60,60)'
+menu-button-appearance='Icon'
+menu-button-bg-color=(true, 'rgba(0,0,0,0)')
+menu-button-fg-color=(false, 'rgba(0,0,0,0)')
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/icon-a-symbolic.svg'
+menu-button-icon-size=24
+menu-button-left-click-action='ArcMenu'
+menu-foreground-color='rgb(223,223,223)'
+menu-height=675
+menu-item-active-bg-color='rgb(25,98,163)'
+menu-item-active-fg-color='rgb(255,255,255)'
+menu-item-hover-bg-color='rgb(21,83,158)'
+menu-item-hover-fg-color='rgb(255,255,255)'
+menu-layout='Runner'
+menu-separator-color='rgba(255,255,255,0.1)'
+multi-monitor=true
+override-menu-theme=false
+position-in-panel='Center'
+prefs-visible-page=0
+runner-font-size=16
+runner-hotkey=@as []
+runner-hotkey-open-primary-monitor=true
+runner-hotkey-overlay-key-enabled=true
+runner-menu-height=345
+runner-menu-height-static=false
+runner-menu-width=545
+runner-position='Centered'
+runner-search-display-style='List'
+runner-searchbar-location='Top'
+runner-show-frequent-apps=false
+runner-show-settings-button=false
+search-entry-border-radius=(true, 25)
+show-activities-button=false
+update-notifier-project-version=70
+
+[blur-my-shell]
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+pipeline='pipeline_default'
+sigma=30
+
+[blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[burn-my-windows]
+active-profile='/home/loong/.config/burn-my-windows/profiles/1765009289838275.conf'
+last-extension-version=47
+last-prefs-version=47
+prefs-open-count=5
+
+[clipboard-indicator]
+history-size=30
+
+[customize-ibus]
+candidate-opacity=uint32 255
+candidate-orientation=uint32 1
+candidate-popup-animation=uint32 1
+custom-font='思源宋体 CN 16'
+enable-custom-theme-dark=false
+enable-orientation=true
+fix-ime-list=false
+ibus-restart-time='1765141255385'
+input-mode-list={'null': true, 'org.gnome.shell.extensions': false, 'com.mattjakeman.extensionmanager': true, 'undefined': false, 'org.gnome.texteditor': false, 'org.gnome.nautilus': false, 'org.gnome.settings': false, 'ibus-setup': false, 'firefox-esr': false, 'gjs': true, 'xdman-main': true, 'org.gnome.terminal': true, 'org.wezfurlong.wezterm': true, 'grub-customizer': true}
+input-mode-remember=uint32 0
+menu-ibus-preference=true
+remember-candidate-position=uint32 0
+unkown-ascii-state=uint32 0
+use-candidate-box-right-click=false
+use-candidate-opacity=false
+use-candidate-reposition=false
+use-candidate-scroll=true
+use-candidate-still=false
+use-custom-bg-dark=false
+use-custom-font=true
+use-popup-animation=false
+use-tray-click-source-switch=false
+
+[dash-to-dock]
+always-center-icons=false
+background-color='rgb(98,160,234)'
+background-opacity=1.0
+click-action='cycle-windows'
+custom-background-color=true
+custom-theme-shrink=true
+dash-max-icon-size=48
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=0.90000000000000002
+hide-tooltip=true
+icon-size-fixed=true
+isolate-monitors=false
+isolate-workspaces=false
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+preview-size-scale=0.0
+show-favorites=true
+show-show-apps-button=false
+transparency-mode='DYNAMIC'
+
+[dash-to-panel]
+extension-version=72
+panel-anchors='{}'
+panel-element-positions='{}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-sizes='{}'
+prefs-opened=false
+
+[ding]
+check-x11wayland=true
+show-home=false
+
+[forge]
+css-last-update=uint32 37
+css-updated='1765189906434'
+dnd-center-layout='tabbed'
+focus-on-hover-enabled=false
+move-pointer-focus-enabled=false
+window-gap-hidden-on-single=false
+window-gap-size=uint32 2
+window-gap-size-increment=uint32 1
+
+[forge/keybindings]
+con-split-horizontal=['<Super>z']
+con-split-layout-toggle=['<Super>g']
+con-split-vertical=['<Super>v']
+con-stacked-layout-toggle=['<Shift><Super>s']
+con-tabbed-layout-toggle=['<Shift><Super>t']
+con-tabbed-showtab-decoration-toggle=['<Control><Alt>y']
+focus-border-toggle=['<Super>x']
+prefs-tiling-toggle=['<Super>w']
+window-focus-down=['<Super>j']
+window-focus-left=['<Super>h']
+window-focus-right=['<Super>l']
+window-focus-up=['<Super>k']
+window-gap-size-decrease=['<Control><Super>minus']
+window-gap-size-increase=['<Control><Super>plus']
+window-move-down=['<Shift><Super>j']
+window-move-left=['<Shift><Super>h']
+window-move-right=['<Shift><Super>l']
+window-move-up=['<Shift><Super>k']
+window-resize-bottom-decrease=['<Shift><Control><Super>i']
+window-resize-bottom-increase=['<Control><Super>u']
+window-resize-left-decrease=['<Shift><Control><Super>o']
+window-resize-left-increase=['<Control><Super>y']
+window-resize-right-decrease=['<Shift><Control><Super>y']
+window-resize-right-increase=['<Control><Super>o']
+window-resize-top-decrease=['<Shift><Control><Super>u']
+window-resize-top-increase=['<Control><Super>i']
+window-snap-center=['<Control><Alt>c']
+window-snap-one-third-left=['<Control><Alt>d']
+window-snap-one-third-right=['<Control><Alt>g']
+window-snap-two-third-left=['<Control><Alt>e']
+window-snap-two-third-right=['<Control><Alt>t']
+window-swap-down=['<Control><Super>j']
+window-swap-last-active=['<Super>Return']
+window-swap-left=['<Control><Super>h']
+window-swap-right=['<Control><Super>l']
+window-swap-up=['<Control><Super>k']
+window-toggle-always-float=['<Shift><Super>c']
+window-toggle-float=['<Super>c']
+workspace-active-tile-toggle=['<Shift><Super>w']
+
+[hidetopbar]
+mouse-sensitive=false
+mouse-sensitive-fullscreen-window=true
+show-in-overview=true
+
+[ibus-tweaker]
+enable-preset-theme=true
+input-modes={'#modal-dialog': ('us', ''), 'com.mattjakeman.extensionmanager': ('rime', ''), 'org.gnome.shell.extensions': ('rime', ''), 'org.gnome.texteditor': ('rime', ''), '#overview': ('us', ''), 'org.gnome.settings': ('rime', ''), 'org.gnome.software': ('rime', ''), 'org.gnome.nautilus': ('rime', '雾'), 'ibus-setup': ('rime', '')}
+
+[just-perfection]
+accent-color-icon=true
+accessibility-menu=true
+activities-button=true
+alt-tab-icon-size=0
+alt-tab-small-icon-size=0
+alt-tab-window-preview-size=0
+animation=0
+background-menu=true
+clock-menu=true
+clock-menu-position=1
+clock-menu-position-offset=8
+controls-manager-spacing-size=0
+dash=false
+dash-app-running=false
+dash-icon-size=0
+dash-separator=false
+double-super-to-appgrid=true
+events-button=false
+osd=false
+panel=true
+panel-in-overview=true
+panel-notification-icon=false
+power-icon=false
+ripple-box=true
+search=false
+show-apps-button=false
+startup-status=0
+support-notifier-type=0
+switcher-popup-delay=true
+theme=false
+top-panel-position=1
+window-demands-attention-focus=false
+window-maximized-on-create=false
+window-menu=false
+window-picker-icon=false
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-peek=false
+workspace-popup=false
+workspace-switcher-size=0
+workspace-wrap-around=false
+workspaces-in-app-grid=true
+
+[ncom/github/hermes83/compiz-alike-magic-lamp-effect]
+duration=500.0
+effect='default'
+x-tiles=15.0
+y-tiles=20.0
+
+[openbar]
+accent-override=false
+auto-bgalpha=false
+autofg-bar=false
+autofg-menu=false
+autohg-bar=true
+autotheme-font=false
+autotheme-refresh=false
+balpha=0.39000000000000001
+bartype='Floating'
+bg-change=true
+bgalpha=0.20000000000000001
+bgalpha2=0.0
+bgcolor2=['0.000', '0.000', '0.000']
+bguri='file:///usr/share/backgrounds/gnome/pixels-d.jxl'
+bottom-margin=7.2999999999999998
+boxalpha=0.0
+boxcolor=['0.000', '0.000', '0.000']
+bradius=28.0
+bwidth=0.0
+candyalpha=0.0
+candybar=false
+count1=944939
+count10=474
+count11=465
+count12=17
+count2=27479
+count3=8659
+count4=5116
+count5=4258
+count6=3191
+count7=2275
+count8=1481
+count9=1148
+dark-bgcolor2=['0.000', '0.000', '0.000']
+dark-bguri='file:///usr/share/backgrounds/gnome/pixels-d.jxl'
+dark-boxcolor=['0.000', '0.000', '0.000']
+dark-palette1=['31', '98', '180']
+dark-palette10=['39', '79', '141']
+dark-palette11=['34', '68', '132']
+dark-palette12=['25', '44', '92']
+dark-palette2=['222', '197', '178']
+dark-palette3=['60', '104', '182']
+dark-palette4=['52', '46', '59']
+dark-palette5=['53', '196', '135']
+dark-palette6=['88', '97', '111']
+dark-palette7=['115', '136', '188']
+dark-palette8=['54', '130', '226']
+dark-palette9=['67', '146', '208']
+dashdock-style='Default'
+dbgalpha=0.47999999999999998
+dborder=false
+dbradius=50.0
+default-font='Sans 12'
+disize=36.0
+dshadow=false
+fgalpha=1.0
+fitts-widgets=false
+font='Maple Mono NF Bold 12'
+gradient=false
+height=35.0
+import-export=false
+isalpha=0.0
+light-bguri='file:///usr/share/backgrounds/gnome/pixels-l.jxl'
+light-palette1=['197', '216', '242']
+light-palette10=['171', '174', '201']
+light-palette11=['197', '189', '157']
+light-palette12=['215', '244', '231']
+light-palette2=['233', '233', '239']
+light-palette3=['162', '196', '231']
+light-palette4=['51', '114', '122']
+light-palette5=['239', '197', '51']
+light-palette6=['197', '65', '97']
+light-palette7=['196', '195', '190']
+light-palette8=['121', '146', '170']
+light-palette9=['174', '149', '166']
+margin=0.0
+menustyle=true
+monitor-height=1080
+monitor-width=1920
+neon=false
+palette1=['31', '98', '180']
+palette10=['39', '79', '141']
+palette11=['34', '68', '132']
+palette12=['25', '44', '92']
+palette2=['222', '197', '178']
+palette3=['60', '104', '182']
+palette4=['52', '46', '59']
+palette5=['53', '196', '135']
+palette6=['88', '97', '111']
+palette7=['115', '136', '188']
+palette8=['54', '130', '226']
+palette9=['67', '146', '208']
+pause-reload=false
+position='Top'
+reloadstyle=true
+set-fullscreen=false
+set-overview=false
+shadow=false
+shalpha=0.0
+smbgoverride=false
+trigger-reload=true
+wmaxbar=false
+
+[space-bar/appearance]
+active-workspace-font-size=10
+active-workspace-font-size-active=true
+active-workspace-font-size-user=10
+active-workspace-text-color='rgb(229,165,10)'
+application-styles='.space-bar {\n  -natural-hpadding: 12px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 0px;\n  background-color: rgba(255,255,255,0.3);\n  color: rgb(229,165,10);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n  font-size: 10pt;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 0px;\n  background-color: rgba(0,0,0,0);\n  color: rgb(198,70,0);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n  font-size: 10pt;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 0px;\n  background-color: rgba(0,0,0,0);\n  color: rgb(38,162,105);\n  border-color: rgba(0,0,0,0);\n  font-weight: 500;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n  font-size: 10pt;\n}'
+custom-styles-enabled=false
+custom-styles-failed=false
+empty-workspace-font-size=10
+empty-workspace-font-size-active=true
+empty-workspace-font-weight='500'
+empty-workspace-font-weight-active=true
+empty-workspace-text-color='rgb(38,162,105)'
+inactive-workspace-font-size=10
+inactive-workspace-font-size-active=true
+inactive-workspace-font-weight-active=true
+inactive-workspace-text-color='rgb(198,70,0)'
+workspace-margin=0
+workspaces-bar-padding=12
+
+[space-bar/behavior]
+always-show-numbers=false
+custom-label-unnamed='Workspace {{number}}'
+enable-custom-label=false
+enable-custom-label-in-menu=false
+indicator-style='workspaces-bar'
+reevaluate-smart-workspace-names=true
+scroll-wheel='workspaces-bar'
+scroll-wheel-wrap-around=true
+show-empty-workspaces=true
+smart-workspace-names=true
+toggle-overview=true
+
+[space-bar/shortcuts]
+back-and-forth=true
+enable-activate-workspace-shortcuts=false
+
+[space-bar/state]
+version=34
+workspace-names-map='{"firefox-esr":["1"],"org.gnome.Shell.Extensions":["1"],"com.mattjakeman.ExtensionManager":["1"],"gjs":["1"]}'
+
+[switcher]
+activate-after-ms=uint32 0
+activate-immediately=false
+fade-enable=false
+font-size=uint32 21
+icon-size=uint32 21
+launcher-stats='{"firefox-esr.desktop":3,"kitty.desktop":4,"org.gnome.Nautilus.desktop":1,"Watt Toolkit.desktop":2,"rofi.desktop":1,"com.mattjakeman.ExtensionManager.desktop":1}'
+matching=uint32 1
+max-width-percentage=uint32 49
+on-active-display=false
+only-current-workspace=false
+ordering=uint32 1
+show-executables=false
+show-original-names=false
+show-switcher=['<Control>w']
+workspace-indicator=true
+
+[tactile]
+col-1=1
+col-2=0
+col-3=0
+layout-2-col-1=1
+layout-2-col-2=0
+layout-2-col-3=0
+layout-2-row-1=0
+layout-2-row-2=0
+layout-3-col-2=0
+layout-3-col-3=0
+layout-3-row-1=0
+layout-3-row-2=0
+layout-4-col-2=0
+layout-4-col-3=0
+layout-4-row-1=0
+layout-4-row-2=0
+row-1=0
+
+[top-bar-organizer]
+center-box-order=['dateMenu']
+hide=@as []
+left-box-order=['activities', 'ArcMenu', 'apps-menu', 'Space Bar']
+right-box-order=['clipboardIndicator', 'screenRecording', 'screenSharing', 'dwellClick', 'a11y', 'keyboard', 'quickSettings']
+show=@as []
+
+[translate-clipboard]
+enable-trans=true
+to='cn'
+
+[trayIconsReloaded]
+tray-position='center'
+
+[user-theme]
+name='Graphite-teal-Dark-nord'
